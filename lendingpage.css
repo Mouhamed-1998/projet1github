@@ -1,0 +1,488 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 15px 15px;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: rgb(5, 133, 126);
+    color: white;
+}
+
+ul a:hover {
+    color: white;
+}
+
+section {
+    width: 100%;
+}
+
+.bakeli {
+    height: 600px;
+    background: url(informatique.jpg) no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
+    
+   
+}
+
+.somme {
+    position: relative;
+    top: 30%;
+    left: 37%;
+}
+
+.bakeli .h {
+    margin: 20px 0px;
+    width: 270px;
+    height: 50px;
+    background-color: rgba(136, 135, 135, 0.342);
+    color: white;
+    padding: 10px 20px;
+}
+
+.somme p {
+    position: absolute;
+    left: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.somme img {
+    width: 170px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 5.5%;
+}
+
+.icone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 7% ;
+}
+
+.icone .champ {
+    width: 30%;
+}
+
+.champ .image {
+    width: 40%;
+    height: 80%;
+    border: 2px solid rgb(5, 133, 126);
+    border-radius: 50%;
+    margin: 10% auto;
+    position: relative;
+}
+.champ .image:hover{
+    box-shadow: 0 0 10px black;
+}
+.champ .info:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.image img {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.champ .info {}
+
+.info h3 {
+    text-align: center;
+}
+
+.info p {
+    text-align: center;
+}
+.formation{
+width: 100%;
+margin-top: 17% ;
+background-color: rgba(228, 222, 222, 0.856);
+}
+ h1{
+text-align: center;
+padding: 40px 0 7px 0 ;
+font-size: 32px;
+}
+.formation .matiere{
+
+
+}
+.formation ul{
+    display: flex;
+justify-content: center;
+
+}
+.formation .grille{
+    margin: 50px 0;
+display: flex;
+justify-content: start;
+flex-wrap: wrap;    
+
+}
+.formation img{
+    margin:  30px 50px;
+}
+.formation .logo1{
+    
+    width: 24.84%;
+    height: 250px;
+    background-color:rgba(148, 220, 238, 0.63) ;
+    border: 1px solid rgba(148, 220, 238, 0.63);
+}
+
+.formation .logo2{
+    
+    width: 24.84%;
+    height: 250px;
+    background-color: rgb(148, 187, 238) ;
+    border: 1px solid rgb(148, 187, 238) ;
+    
+
+}
+.formation .logo3{
+    
+    width: 24.84%;
+    height: 250px;
+    background-color: rgb(106, 129, 106);
+    border: 1px solid rgb(106, 129, 106);
+    
+
+}
+.formation .logo4{
+    
+    width: 24.84%;
+    height: 250px;
+    background-color:rgb(4, 57, 78) ;
+    border: 1px solid rgb(4, 57, 78);
+    
+
+}
+.formation .logo5{
+    
+    width: 24.84%;
+    height: 250px;
+    background-color:rgb(150, 144, 144) ;
+    border: 1px solid rgb(150, 144, 144);
+    
+
+}
+.formation .logo6{
+    
+    width: 24.84%;
+    height: 250px;
+    background-color:rgba(9, 128, 158, 0.63) ;
+    border: 1px solid rgba(9, 128, 158, 0.63);
+    
+
+}
+.formation .logo7{
+    
+    width: 24.84%;
+    height: 250px;
+    background-color:rgb(186, 224, 219) ;
+    border: 1px solid rgb(186, 224, 219);
+    
+
+}
+.formation .logo8{
+    
+    width: 24.84%;
+    height: 250px;
+    background-color:rgb(84, 139, 127) ;
+    border: 1px solid rgb(84, 139, 127);
+    
+
+}
+.paragraphe{
+    width: 100%;
+    margin-top: 6%;
+}
+.paragraphe p{
+    
+    text-align: center;
+    font-size: 14px;
+    
+}
+.paragraphe .centre{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+.centre .left{
+    display: block;
+
+}
+.left .bas{
+    width: 350px;
+    height: 70px; 
+
+}
+.left .haut{
+    width: 350px;
+    height: 70px;
+    display: block;
+}
+
+.left .para{
+    display: flex;
+    justify-content: space-between;
+
+}
+.left .tire1{
+    
+    width: 350px;
+    height: 12px; ;
+    border-radius: 5px ;
+    background-color:rgb(186, 224, 219) ;
+
+    
+
+}
+.left .tiree1{
+    width: 350px;
+    height: 12px;
+    border-radius: 5px ;
+    background-color:rgb(186, 224, 219) ;
+    
+
+}
+
+.left .tire2{
+    
+    width: 350px;
+    height: 12px ;
+    border-radius: 5px ;
+    background-color:rgb(226, 226, 226) ;
+
+    
+
+}
+.left .tiree2{
+    width: 280px;
+    height:12px;
+    border-radius: 5px ;
+    background-color:rgb(186, 224, 219) ;
+    
+
+}
+
+
+
+.centre .right{
+    display: block;
+}
+.right .para{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .bas{
+    width: 350px;
+    height: 70px; 
+
+}
+.right .haut{
+    width: 350px;
+    height: 70px;
+    display: block;
+}
+.right .tire3{
+    
+    width: 350px;
+    height: 12px ;
+    border-radius: 5px ;
+    background-color:rgb(226, 226, 226) ;
+
+    
+
+}
+.right .tiree3{
+    width: 320px;
+    height:12px;
+    border-radius: 5px ;
+    background-color:rgb(186, 224, 219) ;
+    
+
+}
+.right .tire4{
+    
+    width: 350px;
+    height: 12px ;
+    border-radius: 5px ;
+    background-color:rgb(226, 226, 226) ;
+    margin-top: 10px;
+
+    
+
+}
+.right .tiree4{
+    width: 240px;
+    height:12px;
+    border-radius: 5px ;
+    background-color:rgb(186, 224, 219) ;
+}
+.centre p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.person{ 
+    width: 100%;
+    height: 700px;
+    margin-top: 6%;
+    background-color:rgba(149, 224, 214, 0.911) ;
+
+}
+.person p{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.person h1{
+    text-align: center;
+padding: 40px 0 7px 0 ;
+font-size: 32px;
+color: white;
+}
+ .person .presentation{
+     margin-top: 8%;
+     display: flex;
+     justify-content: space-around;
+ }
+ .person .presentation1{
+     width: 20%;
+     height: 380px;
+     
+ }
+ .person .presentation1:hover{
+     box-shadow: 10px 10px 0px rgba(2, 2, 48, 0.37);
+     
+     transform: 0.5s;
+ }
+ .presentation1 .image1{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(145, 119, 119) ;
+ }
+ .presentation1 .image2{
+    width: 100%;
+    height: 300px;
+    background-color:rgba(194, 61, 56, 0.877) ;
+ }
+ .presentation1 .image3{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(33, 206, 154, 0.993);
+ }
+ .presentation1 .image4{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(240, 148, 148, 0.829);
+ }
+  .presentation1 img{
+    width: 100%;
+    height: 300px;
+ } 
+ 
+ .person .personne{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+ }
+ .personne .nom{
+     padding-right: 2px;
+     padding-top: 10px;
+     font-size: 20px;
+     color: black;
+     
+     
+ }
+ .personne .prenom{
+     padding-left: 2px;
+     padding-top: 10px;
+     font-weight: bold;
+     font-size: 20px;
+     color: black;
+ }
+  .infopersonnel{ 
+     margin-top: 6%;
+ } 
+ .infopersonnel img{
+width: 100px;
+position: relative;
+left: 45%;
+ }
+ .infopersonnel .p1{
+     padding-top: 7%;
+     text-align: center;
+ }
+ .infopersonnel .p2{
+    padding-top: 7%;
+    text-align: center;
+    font-weight: bold;
+ }
+ footer{
+     width: 100%;
+     height: 580px;
+     margin-top: 6%;
+     background-color: rgba(185, 183, 183, 0.342);
+
+ }
+ footer .pied{
+     width: 100%;
+     padding-top:5%;
+     display: flex;
+     justify-content: space-around;
+     
+ }
+ footer .souspied{
+    font-weight: bold;
+    font-size: 15px;
+ }
+ footer h2{
+     padding-top:5%;
+     text-align: center;
+ }
+ footer .fin{
+    padding-top:5%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+
+
+ }
+ 
